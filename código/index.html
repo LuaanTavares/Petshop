@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando uma página</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="imagemLogo"><img src="/imagens/logo.png" alt="Logo"></div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#mainHome">HOME</a></li>
+        <li><a href="#sectionServices">SERVICES</a></li>
+        <li><a href="#sectionProducts">PRODUCTS</a></li>
+        <li><a href="#sectionContacts">CONTACTS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="mainHome" class="mainHome">
+    <section class="sectionDescription">
+      <div class="divDescription">
+        <h1>TAKING CARE FROM YOUR SMART DOG!</h1>
+        <p>Human–canine bonding is the relationship between dogs and humans.
+        </p>
+        <a href="#"><button>EXPLORE MORE</button></a>
+      </div>
+      <div class="divImage">
+        <img src="/imagens/dog.png" alt="">
+      </div>
+    </section>
+    <section id="sectionServices" class="sectionServices">
+      <h2>Services</h2>
+      <ul class="ulServices">
+        <li>
+          <img src="/imagens/service1.png" alt="serviço1">
+          <h3>Grooming</h3>
+        </li>
+        <li>
+          <img src="/imagens/service2.png" alt="serviço2">
+          <h3>Healthcare</h3>
+        </li>
+        <li>
+          <img src="/imagens/service3.png" alt="serviço3">
+          <h3>Daycare</h3>
+        </li>
+        <li>
+          <img src="/imagens/service4.png" alt="serviço4">
+          <h3>Training</h3>
+        </li>
+        <li>
+          <img src="/imagens/service5.png" alt="serviço5">
+          <h3>Hyginic care</h3>
+        </li>
+      </ul>
+    </section>
+    <section id="sectionProducts" class="sectionProducts">
+      <h2>Products</h2>
+      <ul class="ulProducts">
+        <li>
+          <img src="/imagens/product1.png" alt="produto1">
+          <div class="descriptionProducts">
+            <h3>Drools | 3KG</h3>
+            <p>Adult chicken and egg Egg, Chicken 3 kg Dry Adult Dog Food</p>
+            <a href="#"><button>BUY NOW</button></a>
+          </div>
+        </li>
+        <li>
+          <img src="/imagens/product2.png" alt="produto2">
+          <div class="descriptionProducts">
+            <h3>Canine Creek 4 KG </h3>
+            <p>Adult chicken and egg Egg, Chicken 3 kg Dry Adult Dog Food</p>
+            <a href="#"><button>BUY NOW</button></a>
+          </div>
+        </li>
+        <li>
+          <img src="/imagens/product3.png" alt="produto3">
+          <div class="descriptionProducts">
+            <h3>Biscork Biscuits</h3>
+            <p>Adult chicken and egg Egg, Chicken 3 kg Dry Adult Dog Food</p>
+            <a href="#"><button>BUY NOW</button></a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="sectionContacts" class="sectionContacts">
+      <h2>Contacts</h2>
+      <label for="subjects">Subjects</label>
+      <input placeholder="Type your subject here" id="subjects" type="text">
+
+      <label for="email">E-mail</label>
+      <input placeholder="Type your e-mail here" id="email" type="email">
+
+      <label for="message">Message</label>
+      <textarea placeholder="Type your message here" name="message" id="message" cols="30" rows="10"></textarea>
+
+      <button>SUBMIT NOW</button>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <p> © Luan Tavares</p>
+  </footer>
+
+</body>
+
+</html>
